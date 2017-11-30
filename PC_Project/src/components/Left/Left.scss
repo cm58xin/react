@@ -1,0 +1,76 @@
+#Left{
+    width:150px;
+    height:800px;
+    background:#292A33;
+    .leftTop{
+        padding:30px 20px 10px 20px;
+        p.time{
+            text-align:center;
+            span{
+                font-weight:bold;
+                color:#fff;
+                font-size:16px;
+                display:block;
+            }
+        }
+    }
+    .LeftMain{
+        width:150px;
+        p.logo{
+            height:120px;
+            width:120px;
+            border:2px solid #E0E3E8;
+            border-radius:50%;
+            position:relative;
+            background:#457A8C;
+            margin:0 10px;
+            span{
+                color:#fff;
+                font-size:30px;
+                font-weight:bold;
+                position:absolute;
+                top:32px;left:16px;
+            }
+        }
+        p:nth-child(2){
+            padding-top:16px;
+            font-weight:bold;
+            color:#fff;
+            font-family:"微软雅黑";
+            font-size:16px;
+            padding:0 24px;
+            margin:16px 0px 0px 0px;
+        }
+        ul{
+            width:100%;
+            padding:0px;
+            background:#292A33;
+            border-right:0 none;
+            width:100%;
+            span{
+                font-size:14px;
+            }
+            li{
+                color:#fff;
+                font-weight:bold;
+                padding-left:0px;
+                width:100%;
+                font-size:14px;
+                a{
+                    color:#fff;
+                }
+                a:hover{
+                    color:#108EE9;
+                }
+            }
+            li:hover{
+                background:#292A33;
+            }
+        }
+    }
+    .ant-menu-item > a:before {
+        height:24px;
+    }
+
+}
+

@@ -1,0 +1,32 @@
+.addresscontent{
+	flex:1;
+	background-color:#f5f5f5;
+	li{
+		background-color:#fff;
+		margin-bottom:16px;
+		.address_box{
+			display:flex;
+			justify-content:space-between;
+		}
+		.address_top{
+			padding:0 8px;
+			border-bottom:1px solid #ddd;
+			.p1{
+				line-height:36px;
+				font-size:14px;
+			}
+			.p2{
+				line-height:18px;
+				font-size:14px;
+				padding-bottom:10px;
+				
+			}
+		}
+		.address_bottom{
+			padding:0 8px;
+			height:40px;
+			align-items:center;
+		}
+	}
+	
+}

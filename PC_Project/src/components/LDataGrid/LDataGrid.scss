@@ -1,0 +1,45 @@
+            ul{
+                float:right;
+                padding-right:10px;
+            }
+            table{
+                width:100%;
+                border:2px solid #fff;
+                thead{
+                    tr{
+                        background:#eee;
+                        line-height:40px;
+                        th{
+                          width: 200px;
+                          text-align: center;
+                        }
+                        button{
+                            float:right;
+                            margin:10px;
+                            border:1px solid skyblue;
+                            color:skyblue;
+                        }
+                    }
+                }
+                tbody{
+                     :hover{
+                            background-color: skyblue;
+                        }
+                    tr{
+
+                        border-bottom: 1px solid #ccc;
+                        text-align: center;
+                        td{
+                            overflow: hidden;
+                            button{
+                                float: left;
+                                margin: 45px 10px;
+                            }
+                            img{width: 100px;padding: 10px;}
+                        }
+                    }
+                }
+            }
+ul{
+    margin-top: 20px;
+}

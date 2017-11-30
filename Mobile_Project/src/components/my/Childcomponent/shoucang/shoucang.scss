@@ -1,0 +1,63 @@
+
+
+.shoucang_main{
+    margin:0 10px;
+    color:black;
+    background:#f5f5f5;
+    flex:1;
+    position:relative;
+    &>p{
+        background:#fff;
+        font-size:18px;
+        line-height:50px;
+        margin-bottom:5px;
+    }
+    ul{
+        background:#fff;
+        margin-bottom:10px;
+        font-size:16px;
+
+
+        li{
+            height:120px;
+            padding:10px 0;
+            img{
+                width:90px;
+                height:100px;
+                float:left;
+            }
+            .shoucang_r{
+                padding-left:20px;
+                float:left;
+                width:250px;
+                height:100%;
+                &>p{
+                    overflow:hidden;
+                    h4{
+                        float:left;
+                        width:180px;
+                    }
+                    span{
+                        float:right;
+                    }
+                }
+                p:nth-child(2){
+                    font-size:14px;
+                    width:230px;
+                    color:#666;
+                }
+                input{
+                    float:right;
+                    color:#C1A5D6;
+                    border:1px solid #C1A5D6;
+                    background:#fff;
+                    outline:none;
+                    width:95px;
+                    height:35px;
+                    margin-top:15px;
+                    text-align:center;
+                }
+            }
+        }
+    }
+}

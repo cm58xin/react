@@ -1,0 +1,11 @@
+h1{
+    color:#f60;
+}
+#goodslist{
+    display:flex;
+    flex-direction:column;
+    ul{
+        flex:1;
+        overflow-y:auto;
+    }
+}

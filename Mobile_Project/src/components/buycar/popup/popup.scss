@@ -1,0 +1,53 @@
+#popup{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:2;
+	.popup_cover{
+		background-color:#333;
+		opacity:0.4;
+		position:absoute;
+		top:0;
+		left:0;
+		width:100%;
+		height:30%;
+	}
+	.popup_content{
+		padding:10px;
+		height:70%;
+		width:100%;
+		background-color:#fff;
+		position:absolute;
+		left:0;
+		bottom:0;
+		.popup_content_header{
+			p{
+				&.header{
+					border-bottom:1px solid #ddd;
+				}
+				height:36px;
+				align-items:center;
+				display:flex;
+				justify-content:space-between;
+				font-size:14px;
+				input{
+					width:40px;
+					height:40px;
+					font-size:72px;
+				}
+				&.passwordBox{
+					justify-content:center;
+					margin:20px 0px;
+				}
+			}
+		}
+		.popup_content_bottom{
+			button{
+				width:32%;
+				height:50px;
+			}
+		}
+	}
+}

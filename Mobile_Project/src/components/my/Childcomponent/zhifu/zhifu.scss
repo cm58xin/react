@@ -1,0 +1,123 @@
+#zhifuheader{
+        height:60px;
+        background:#C1A5D6;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        h1{
+            font-size:20px;color:#fff;
+            position:relative;
+            i{
+                position:absolute;left:10px;
+                &.shezhi{
+                    font-size:24px;
+                    left:338px;
+                }
+            }
+            a{color:#fff;}
+        }
+    }
+#zhifucontent{
+	flex:1;
+	overflow:auto;
+	ul{
+		border-bottom:1px dotted #ddd;
+		li{
+			background-color:#f5f5f5;
+			padding:10px 0;
+		}
+		.zhifucontent_top{
+				height:36px;
+				padding:8px 10px;
+				background-color:#fff;
+				display:flex;
+				justify-content:space-between;
+				input{
+					width:20px;
+					height:20px;
+				}
+				p{
+					color:#FA3441;
+					line-height:30px;
+				}
+			}
+			.zhifucontent_center{
+				padding:8px 10px;
+				display:flex;
+				justify-content:flex-start;
+				.check{
+					float:left;
+				}
+				.image{
+					img{
+						width:62px;
+						height:62px;
+					}
+
+					float:left;
+				}
+				.text{
+					p{
+						color:#6C6E6D;
+						font-size:12px;
+						line-height:18px;
+					}
+					padding-left:7px;
+					flex:1;
+					.baozang{
+						display:inline-block;
+						height:16px;
+						line-height:16px;
+						background-color:#FA3441;
+						color:#fff;
+						text-align:center;
+					}
+				}
+				.prices{
+					width:42px;
+					font-size:12px;
+					line-height:16
+					 px;
+					.price2{
+						color:#414241;
+					}
+				}
+			}
+			.zhifucontent_bottom{
+				margin-top:10px;
+				background-color:#fff;
+				padding:0 10px 10px 0;
+				display:flex;
+				flex-direction:column;
+				justify-content:space-between;
+				p{
+					text-align:right;
+					line-height:40px;
+				}
+				.bottom{
+					display:flex;
+					justify-content:space-between;
+					button{
+						margin-left:20px;
+						height:30px;
+						padding:6px;
+						display:inline-block;
+						background-color:#fff;
+						border:1px solid #F0F0F0;
+					}
+				}
+			}
+
+
+	}
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner, .ant-checkbox:hover .ant-checkbox-inner, .ant-checkbox-input:focus + .ant-checkbox-inner {
+				    background-color:#C1A5D6;
+				}
+
+.gong{
+	text-align:right;
+	padding-right:11px;
+}

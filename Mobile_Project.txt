@@ -1,0 +1,11 @@
+
+组内成员：王丽雅、王亮、唐湖金、明经平、任思明、黄敏琼
+
+
+数据库：在文件夹database
+
+
+baseurl：在Mobile_Project根目录
+
+
+网站：http://cm58.xin

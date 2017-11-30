@@ -1,0 +1,64 @@
+body,html{height:100%;width:100%;}
+#register{height:100%;width:100%;background:#eee;}
+.registerHead{
+    height:70px;
+    background:#C1A5D6;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    position:relative;
+    i{font-size:32px;color:#EDEAED;position:absolute;top:20px;left:12px;}
+    h1{
+        font-size:20px;
+        color:#fff;
+        line-height:70px;
+    }
+
+}
+.registerMain{
+    margin-top:40px;
+    width:100%;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    input{
+        display:block;
+        height:40px;
+        width:250px;
+        font-size:14px;
+
+    }
+    .inputDiv{
+        padding:66px;
+    }
+    .ant-input-affix-wrapper{
+        height:46px;
+        margin-bottom:16px;
+    }
+    .onBtn{
+        width:100%;
+        height:40px;
+        margin-left:6px;
+        margin-top:6px;
+        font-size:14px;
+    }
+    .links{
+        padding:10px;
+        a.forget{
+            display:block;
+            float:right;
+            font-size:14px;
+            color:blue;
+        }
+        
+    }
+}
+.registerMain .ant-input-affix-wrapper{
+    margin-bottom: 0;
+}
+#span1,#span2{
+    color: red;
+    display: block;
+    height: 20px;
+    font-size: 12px;
+}

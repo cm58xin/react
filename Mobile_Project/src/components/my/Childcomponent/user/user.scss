@@ -1,0 +1,44 @@
+.user_main{
+    flex:1;
+    position:relative;
+    margin:10px;
+    ul{
+        li{
+            height:70px;
+            font-size:18px;
+            border-bottom:1px solid #f5f5f5;
+            &>span{
+                line-height:70px;
+            }
+            p{
+                float:right;
+                .ant-calendar-picker{
+                    margin-top:20px;
+                    & input{
+                        height:30px;
+                        font-size:16px;
+                    }
+                }
+                &>span{
+                    color:#ccc;
+                    font-size:16px;
+                    line-height:70px;
+                }
+                img{
+                    width:60px;
+                    height:60px;
+                    border-radius:50%;
+                    display:inline-block;
+
+                }
+                i{
+                    float:right;
+                    margin-left:10px;
+                    line-height:70px;
+                    color:#999;
+                }
+            }
+            
+        }
+    }
+}

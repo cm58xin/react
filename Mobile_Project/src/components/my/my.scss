@@ -1,0 +1,136 @@
+body,html{height:100%;width:100%;}
+#app{width:100%;height:100%;::-webkit-scrollbar{width:14px;}}
+#box{
+    display:flex;
+    height:100%;
+    width:100%;
+    flex-direction:column;
+    .classifyHead{
+        height:60px;
+        background:#C1A5D6;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        h1{
+            font-size:20px;color:#fff;
+            position:relative;
+            i{
+                position:absolute;left:10px;
+                &.shezhi{
+                    font-size:24px;
+                    left:338px;
+                }
+            }
+            a{
+                color:#fff;
+            }
+        }
+    }
+    #MyMain{
+        flex:1;
+        display:flex;
+        flex-direction:column;
+        .MyTop{
+            height:22%;
+            width:100%;
+            background:url('./beijing3.jpg');
+            background-size:100% 100%;
+            padding:20px;
+            display:flex;
+            justify-content:center;
+            img{
+                height:80px;
+                width:80px;
+                border-radius:50%;
+            }
+            p{
+                display:flex;
+                flex-direction:column;
+                margin-left:10px;
+                margin-top:15px;
+                span{
+                    font-size:14px;
+                    color:#444;
+                    line-height:24px;
+                    position:relative;
+                    font-family:"微软雅黑";
+                    i{
+                        display:block;
+                        position:absolute;
+                        top:0;
+                        left:90px;
+                        color:#444;
+                        font-size:20px;
+
+                    }
+                }
+            }
+        }
+        .main{
+            ul.topUl{
+                display:flex;
+                padding:10px;
+                justify-content:space-around;
+                background:#E8F0F2;
+                li{
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:center;
+                    text-align:center;
+                    i{
+                        font-size:18px;color:#AFAFAA;
+                    }
+                    span{
+                        font-size:12px;padding-top:6px;color:#AFAFAA;
+                    }
+                }
+            }
+            .module{
+                padding-top:16px;
+                width:100%;
+                background:#ddd;
+                ul{
+                    display:flex;
+                    flex-direction:column;
+                    background:#fff;
+                    padding:0 10px;
+                    border:0 none;
+                    li{
+                        height:50px;
+                        border-bottom:2px solid #eee;
+                        padding:10px 0 0 10px;
+                        position:relative;
+                        i{
+                            font-size:20px;color:skyblue;
+                            &.right{
+                                color:#eee;
+                                position:absolute;
+                                right:0px;
+                                top:14px;
+                            }
+                            &.shou{
+                                color:#FE8294;
+                            }
+                            &.pingjia{
+                                color:#FEBB57;
+                            }
+                            &.user{
+                                color:#D8CF07;
+                            }
+                            &.kefu{
+                                color:#A5B3D9;
+                            }
+                        }
+                        span{
+                            font-size:14px;color:#444;margin-left:8px;
+                        }
+                    }
+                }
+            }
+            
+        }
+
+    }
+   
+}

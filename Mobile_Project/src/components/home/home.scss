@@ -1,0 +1,95 @@
+body,html{height:100%;width:100%;}
+#app{width:100%;height:100%;::-webkit-scrollbar{width:0;}}
+
+#box{
+  height:100%;
+  a{color:#333;}
+  .min-container{
+    background: #f5f4f4;
+    overflow-y:auto;
+    overflow-x: hidden;
+    flex:1;
+    .ant-carousel .slick-slide {
+      text-align: center;
+      height: 160px;
+      line-height: 160px;
+      background: #364d79;
+      overflow: hidden;
+      img{
+        width:100%;
+      }
+    }
+    .ant-carousel .slick-slide h3 {
+      color: #fff;
+    }
+    .goodsclassify{
+        width:100%;
+        background:#fff;
+        padding:15px 0;
+        margin-bottom:15px;
+        h5{
+            background: url("../../../static/img/remenshichang.png") no-repeat center center;
+            background-size: 41% auto;
+            color: #333;
+            text-align:center;
+            margin-bottom:15px;
+        }
+        ul{
+            width:100%;
+            li{
+                width:25%;
+                float:left;
+                img{
+                    width:60%;
+                    margin:0 auto;
+                }
+                p{text-align:center;font-size:14px;line-height: 28px;}
+            }
+        }
+    }
+    .goodslist{
+      width:100%;
+      background:#fff;
+      h3{
+        padding:10px;
+        font-size:20px;
+        font-weight:normal;
+      }
+    }
+  }
+}
+
+.min-sale1 {font-size:18px;}
+.gutter-box.min-sale3{color:#f00;font-weight:bold;}
+// 隐藏滚动条
+.min-container::-webkit-scrollbar{display:none;}
+
+
+
+#allmap {width: 100%;height: 50%;overflow: hidden;font-family:"微软雅黑";background:#ccc;position:absolute;margin-top:77px;z-index:3;display:none;}
+
+
+.show{
+  display:block;
+}
+
+
+#history{
+  width: 100%;height: 81%;overflow: hidden;background:#ddd;position:absolute;margin-top:77px;display:none;
+  .btn{
+      width: 100%;
+      height:42px;
+      margin-top:8px;
+      font-size:16px;
+  }
+}
+
+.hot{
+  h3{font-size:16px;padding:8px 0 0 8px;}
+  margin-bottom:13px;background:white;height:60px;  width: 100%;
+}
+
+.lishi{
+   h3{font-size:16px;padding:8px 0 0 8px;}
+  background:white;height:407px;  width: 100%;
+}

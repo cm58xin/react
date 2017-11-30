@@ -1,0 +1,195 @@
+body,html{height:100%;width:100%;}
+#app{width:100%;height:100%;::-webkit-scrollbar{width:0;}}
+#buycar_main::-webkit-scrollbar{display:none;}
+
+#box{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+header{
+    height:60px;
+    background:#C1A5D6;
+    color:#fff;
+    width:100%;
+    position:relative;
+
+    h3{
+    	font-size:20px;
+    	color:#fff;
+    	line-height:60px;
+    	text-align:center;
+    	font-weight:normal;
+    	position:relative;
+    	i{
+    		position:absolute;
+    		top:20px;
+    		left:10px;
+    		color:#fff;
+    	}
+    }
+
+    span{
+    		font-size:16px;
+    		position:absolute;
+    		right:30px;
+    		top:2px;
+    		float:right;
+    		line-height:60px;
+    		
+    	}
+}
+
+#buycar_main{
+	display:flex;
+	flex-direction:column;
+	flex:1;
+	overflow-y:auto;
+	position:relative;
+	margin:10px;
+
+	ul{
+		flex:1;
+		overflow-y:auto;
+		li{
+			.ant-checkbox-wrapper{
+				float:left;
+				width:30px;
+				line-height:105px;
+				text-align:center;
+			}
+			.ant-checkbox-inner{
+
+				width:20px;
+				height:20px;
+				border-radius:50% !important;
+			}
+			.ant-checkbox-inner::after{
+				left:5px;
+				top:4px;
+				height:10px;
+			}
+			.ant-checkbox.ant-checkbox-checked .ant-checkbox-inner{
+				
+				border:none;
+				border-radius:50% !important;
+				background-color:#C1A5D6 !important;
+			}
+
+			.buy_r{
+				padding:10px 0 ;
+				height:110px;
+				border-bottom:1px solid #ccc;
+				overflow:hidden;
+
+				img{
+					width:90px;
+					height:90px;
+					margin:0 10px;
+					float:left;
+				}
+				i{
+					color:#C1A5D6;
+					float:right;
+					font-size:20px;
+					line-height:25px;
+				}
+				p{
+					position:relative;
+					float:left;
+					width:180px;
+					height:100%;
+
+					h4{
+						line-height:25px;
+						font-weight:bold;
+						font-size:14px;
+					}
+					.size{
+						display:block;
+						font-size:12px;
+						color:#666;
+					}
+					.price{
+						position:absolute;
+						bottom:0;
+						left:0;
+						color:red;
+						font-size:14px;
+					}
+					.counter{
+						height:27px;
+						position:absolute;
+						bottom:0;
+						right:0;
+						border:1px solid #ccc;
+
+						input{
+							outline:none;
+							width:70px;
+							height:25px;
+							border:none;
+							font-size:14px;
+							font-weight:bold;
+							border-left:1px solid #ccc;
+							border-right:1px solid #ccc;
+							vertical-align:top;
+							text-align:center;
+
+						}
+						span{
+							display:inline-block;
+							width:20px;
+							height:25px;
+							font-weight:bold;
+							line-height:25px;
+							font-size:22px;
+							text-align:center;
+						}
+					}
+				}
+				
+			}
+			
+		}
+	}
+	.toPay{
+		height:60px;
+		padding:10px;
+		box-sizing:border-box;
+		background:#fff;
+		width:100%;
+
+		p{
+			width:100%;
+			overflow:hidden;
+		}
+		h4{
+			float:left;
+			font-weight:normal;
+			line-height:40px;
+			span{
+				color:red;
+			}
+		}
+
+		input{
+			float:right;
+			width:100px;
+			height:40px;
+			background:#C1A5D6;
+			font-size:16px;
+			color:#fff;
+			border:none;
+			border-radius:8%;
+			outline:none;
+		}
+	}
+}
+
+footer{
+	width:100%;
+	height:80px;
+    background:#C1A5D6;
+}

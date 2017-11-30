@@ -1,0 +1,33 @@
+.aboutourcontent{
+background-color:#f7f7f7;
+	flex:1;
+	ul{
+		
+		li{
+			display:flex;
+			justify-content:space-between;
+			height:32px;
+			border:1px solid #FCFCFC;
+			padding:0 8px;
+			background-color:#fff;
+			color:#100101;
+			&.li1{
+				height:64px;
+			}
+			&.li2{
+				margin:10px 0;
+			}
+			&.li3{
+				margin:10px 0;
+			}
+			align-items:center;
+			a{
+				width:100%;
+				color:#100101;
+				display:flex;
+				justify-content:space-between;
+			}
+		}
+	}
+	
+}

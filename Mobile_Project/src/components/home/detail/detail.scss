@@ -1,0 +1,28 @@
+
+.detail{
+    width:100%;
+    padding-top:5px;
+    a{color:#333;}
+    li{
+        width:49%;
+        float:left;
+        p{
+            padding: 4px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+        }
+        p:last-child{
+            line-height: 22px;
+            color: #f60;
+            font-size: 18px;
+        }
+        img{
+            width:100%;
+        }
+    }
+    li:nth-child(2n-1){
+        margin-right:2%
+    }
+}

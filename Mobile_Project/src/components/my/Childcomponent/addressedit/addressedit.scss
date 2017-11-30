@@ -1,0 +1,42 @@
+.addressedithead{
+    height:60px;
+    background:#C1A5D6;
+
+    display:flex;
+ 
+    justify-content:space-between;
+    align-items:center;
+    h1{
+        font-size:20px;color:#fff;
+    	padding:0 8px;
+        width:100%;
+        display:flex;
+        
+        justify-content:space-between;
+        align-items:center;
+    }
+}
+.addresseditcontent{
+	flex:1;
+	li{
+		display:flex;
+		justify-content:space-between;
+		padding:0 10px;
+		height:40px;
+		align-items:center;
+		border-bottom:1px solid #ddd;
+		input{
+			width:290px;
+			border:0 none;
+			outline:0 none;
+		}
+		textarea{
+			width:100%;
+			border:0 none;
+			outline:0 none;
+		}
+		&.li_last{
+			color:#f00;
+		}
+	}
+}
